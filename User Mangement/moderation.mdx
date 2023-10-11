@@ -1,0 +1,119 @@
+---
+sidebar_position: 4
+---
+
+# Moderation
+
+The Moderation category is a collection of commands that enable server moderators, admins and the owner to ensure the safety of its server. 
+
+## Commands
+
+The Moderation category offers a range of commands to server's moderators, admins and the owner, including:
+
+| Command             | Description                                                        | Usage                                                       |
+| ------------------- | ------------------------------------------------------------------ | ----------------------------------------------------------- |
+| /ban                | Ban a user from the server even if they are not currently a member | `/ban [user] [delete_message_days] [reason]`                |
+| /case               | Get information about a specific case                              | `/case [user] [log_id]`                                     |
+| /clearwarns         | Delete all warnings of a user                                      | `/clearwarns [user]`                                        |
+| /decancer           | Removes zalgo characters from a user's name                        | `/decancer [user]`                                          |
+| /delwarn            | Deletes a warning from user record                                 | `/delwarn [user] [warning_id]`                              |
+| /duration           | Change the duration of a mute/ban                                  | `/duration [user] [duration]`                               |
+| /emoji add          | Add custom emoji to your server                                    | `/emoji add [emoji] [name]`                                 |
+| /emoji addmany      | Add multiple custom emojis to the server                           | `/emoji addmany [emojis]`                                   |
+| /emoji pack         | Search and add emojis from emoji.gg                                | `/emoji pack [search]`                                      |
+| /emoji list         | List all the emojis currently available on your server             | `/emoji list [search]`                                      |
+| /kick               | Kick a member from the server                                      | `/kick [user] [reason]`                                     |
+| /lock               | Lock a channel to prevent messages from being sent                 | `/lock [channel] [target] [duration]`                       |
+| /massban            | Ban multiple users from the server                                 | `/massban [users] [reason] [delete_message_days]`           |
+| /modlogs            | Displays moderation logs for a user                                | `/modlogs [user]`                                           |
+| /nickname           | Change the nickname of a user                                      | `/nickname [user] [nickname]`                               |
+| /note set           | Set note for a specific user                                       | `/note set [user] [note]`                                   |
+| /note list          | Displays a list of all notes                                       | `/note list`                                                |
+| /note clear         | Clear all notes for a specific user                                | `/note clear [user]`                                        |
+| /note get           | Get all notes for a specific user                                  | `/note get [user]`                                          |
+| /note remove        | Remove note(s) for a specific user                                 | `/note remove [user] [note_id]`                             |
+| /note removeall     | Remove all your notes                                              | `/note removeall`                                           |
+| /permission enable  | Enable a message command for a channel                             | `/permission enable [command] [channel]`                    |
+| /permission disable | Disable a message command for a channel                            | `/permission disable [command] [channel]`                   |
+| /purge              | Delete a specified number of messages from a channel               | `/purge [amount] [options]`                                 |
+| /reason             | Change the reason of a moderation action                           | `/reason [user] [log_id] [reason]`                          |
+| /removetimeout      | Remove timeout from a user                                         | `/removetimeout [user]`                                     |
+| /timeout            | Timeout a user for a certain amount of time                        | `/timeout [user] [duration] [reason]`                       |
+| /say                | Sends your message from anyone to anywhere                         | `/say [text] [channel] [user]`                              |
+| /slowmode           | Set slowmode for a channel                                         | `/slowmode [time] [channel] [reason] [duration]`            |
+| /softban            | Softban a user from the server                                     | `/softban [user] [delete_message_days] [reason]`            |
+| /sticker add        | Add a custom sticker to the server                                 | `/sticker add [url] [name] [tags] [description]`            |
+| /tempban            | Temporarily ban a user from the server                             | `/tempban [user] [duration] [delete_message_days] [reason]` |
+| /unban              | Unban a member from the server                                     | `/unban [user] [reason]`                                    |
+| /unlock             | Unlock a channel                                                   | `/unlock [channel] [target]`                                |
+| /voicemove          | Move all users from a voice channel to another                     | `/voicemove [from] [to]`                                    |
+| /warn               | Warn a user                                                        | `/warn [user] [reason]`                                     |
+| /warnings           | Displays all the warnings of a user                                | `/warnings [user]`
+
+## Basic Moderation
+
+Basic Moderation is key to keeping servers safe! Which is why we have these basic features but we upscale them.
+
+| Command             | Description                                                        |
+| ------------------- | ------------------------------------------------------------------ |
+| /ban                | Ban a user from the server even if they are not currently a member | 
+| /case               | Get information about a specific case                              | 
+| /clearwarns         | Delete all warnings of a user                                      |
+| /decancer           | Removes zalgo characters from a user's name                        | 
+| /delwarn            | Deletes a warning from user record                                 | 
+| /duration           | Change the duration of a mute/ban                                  |
+| /kick               | Kick a member from the server                                      | 
+| /lock               | Lock a channel to prevent messages from being sent                 | 
+| /massban            | Ban multiple users from the server                                 | 
+| /modlogs            | Displays moderation logs for a user                                | 
+| /nickname           | Change the nickname of a user                                      |
+| /purge              | Delete a specified number of messages from a channel               |
+| /reason             | Change the reason of a moderation action                           | 
+| /removetimeout      | Remove timeout from a user                                         | 
+| /timeout            | Timeout a user for a certain amount of time                        | 
+| /say                | Sends your message from anyone to anywhere                         |
+| /slowmode           | Set slowmode for a channel                                         | 
+| /softban            | Softban a user from the server                                     |
+| /tempban            | Temporarily ban a user from the server                             | 
+| /unban              | Unban a member from the server                                     | 
+| /unlock             | Unlock a channel                                                   | 
+| /voicemove          | Move all users from a voice channel to another                     | 
+| /warn               | Warn a user                                                        | 
+| /warnings           | Displays all the warnings of a user                                |
+
+
+## Emojis & Stickers
+
+Emojis & Stickers are a key part of a server. Allowing users to use small images to react to messages. With ROTI you can manage your server emojis without needing to go to Server Settings:
+
+| Command             | Description                                                        |
+| ------------------- | ------------------------------------------------------------------ |
+| /emoji add          | Add custom emoji to your server                                    | 
+| /emoji addmany      | Add multiple custom emojis to the server                           | 
+| /emoji pack         | Search and add emojis from emoji.gg                                | 
+| /emoji list         | List all the emojis currently available on your server             | 
+| /sticker add        | Add a custom sticker to the server                                 |
+
+- **NOTE**: When doing `/emoji pack` the emojis will only come from emoji.gg's collection
+
+## Notes 
+
+User Notes are a Discord Feature allowing moderators, admins and the owner to add notes to specific members. With ROTI you can add, edit or clear notes from a member with the following commands:
+
+| Command             | Description                                                        |
+| ------------------- | ------------------------------------------------------------------ |
+| /note list          | Displays a list of all notes                                       |                                               
+| /note clear         | Clear all notes for a specific user                                |
+| /note get           | Get all notes for a specific user                                  | 
+| /note remove        | Remove note(s) for a specific user                                 | 
+| /note removeall     | Remove all your notes                                              | 
+
+## Permissions
+
+With ROTI's prefix commands you either enable or disable it with the following commands:
+
+| Command             | Description                                                        |
+| ------------------- | ------------------------------------------------------------------ |
+| /permission enable  | Enable a message command for a channel                             | 
+| /permission disable | Disable a message command for a channel                            |
+
