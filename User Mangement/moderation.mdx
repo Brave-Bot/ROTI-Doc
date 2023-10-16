@@ -81,6 +81,25 @@ Basic Moderation is key to keeping servers safe! Which is why we have these basi
 | /warn               | Warn a user                                                        | 
 | /warnings           | Displays all the warnings of a user                                |
 
+## Basic Moderation
+### To Ban, Kick, Warn, Softban, Tempban or Timeout:
+- Choose the action you want to take and then find the right commnd for it. Select the user and add a reason if you wish. 
+- **IF** the command is /tempban or /timeout you are requried to enter a time frame.
+###Warnings 
+To check a users Warnings do /warnings and select the user you would like to check. 
+
+### Lock & Unlock 
+1. To lock a channel you do /lock! 
+1.a You can put the following extra fields: duration, target, and channel! 
+1.b Duration requries a time frame 
+1.c Tagret means you can lock a channel for a certain role or user. 
+1.d Channel means the specific channel you want locked. 
+- **NOTE** Those FIELDS are completey extra.
+2. To unlock a channel do /unlock 
+2.a You can choose a specific channel not requried tho. 
+
+##Voicemove 
+To move a user do /voicemove select the user and the Voice Channel (Stages included) you want to move the user too.
 
 ## Emojis & Stickers
 
@@ -94,7 +113,19 @@ Emojis & Stickers are a key part of a server. Allowing users to use small images
 | /emoji list         | List all the emojis currently available on your server             | 
 | /sticker add        | Add a custom sticker to the server                                 |
 
+
+### Emoji Add
+When doing `/emoji add` input the a emoji id, link or name with colons at start and end or send. You must be in the server where you are getting the emoji from. 
+- EXTRA: If you want the emoji name to be different when it is added to your server go to the extra field called "name" and input what you would like the emoji to be called in your server.
+### Emoji addmany 
+When doing `/emoji addmany` input the emojis ids, links or names with colons at start and end or send. You must be in the server where you are getting the emojis from. 
+### Emoji pack 
+Input the name of the pack / genre of emojis you are looking for.
 - **NOTE**: When doing `/emoji pack` the emojis will only come from emoji.gg's collection
+- 1. Add this Emoji Button - Adds the current emoji displayed
+- 2. Select and add emojis Button - Adds the emojis you have selected
+- 3. Add these Emoji Button - Adds the all the emoji available within the dataset given to you. 
+- 4. Add this Sticker Button - Adds the current emoji / sticker displayed as a sticker.
 
 ## Notes 
 
@@ -108,6 +139,20 @@ User Notes are a Discord Feature allowing moderators, admins and the owner to ad
 | /note remove        | Remove note(s) for a specific user                                 | 
 | /note removeall     | Remove all your notes                                              | 
 
+###Note List 
+Lists everys user notes.
+
+###Note Clear 
+Clears the selected users notes.
+
+###Note Get 
+Displays the selected users notes.
+
+###Note Remove 
+Removes the selected users notes.
+
+###Note removeall
+Removes all the users notes in the server. (Every user who has notes will get their notes removed when you execute this command)
 ## Permissions
 
 With ROTI's prefix commands you either enable or disable it with the following commands:
@@ -117,3 +162,5 @@ With ROTI's prefix commands you either enable or disable it with the following c
 | /permission enable  | Enable a message command for a channel                             | 
 | /permission disable | Disable a message command for a channel                            |
 
+1. **ENABLE:** To enable a message command in a channel select the message command and then select the channel. 
+2. **DISABLE:** To disable a message command in a channel select the message command and then select the channel.
